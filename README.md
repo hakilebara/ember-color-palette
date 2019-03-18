@@ -7,7 +7,9 @@ Displays a color palette. Heavily inspired by https://github.com/chrislopresto/e
 Compatibility
 ------------------------------------------------------------------------------
 
-* Ember.js v2.18 or above
+* Ember.js v3.4 or above
+  Previous verions of ember will need to use [ember-angle-bracket-invocation-polyfill](https://github.com/rwjblue/ember-angle-bracket-invocation-polyfill)
+
 * Ember CLI v2.13 or above
 
 
@@ -23,13 +25,22 @@ Usage
 ------------------------------------------------------------------------------
 
 ```  handlebars
+  // controller.js
+  const colors = [
+    { name: "blue100", base: "#e8f5ff" },
+    { name: "blue400", base: "#068dfe" },
+    { name: "blue500", base: "#0890ff" },
+    { name: "blue600", base: "#077ee0" },
+    { name: "blue700", base: "#066fc4" },
+    { name: "blue800", base: "#0765b3" }
+  ];
+
+
 <!-- template.hbs -->
-<ColorPalette @colors={{this.colors}} @title={{this.title}} @description={{this.description}}/>
-
-
-<ColorPalette @colors={{this.colors}} as |cp|>
-  {{cp.item}}
-</ColorPalette>
+<ColorPalette 
+	@colors={{this.colors}}
+	@title={{this.title}}
+	@description={{this.description}}/>
 ```
 
 

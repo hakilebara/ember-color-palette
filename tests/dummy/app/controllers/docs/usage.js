@@ -3,6 +3,8 @@ import Controller from "@ember/controller";
 export default Controller.extend({
   init() {
     this._super(...arguments);
+    // BEGIN-SNIPPET color-data.js
+    // controller.js
     const colors = [
       { name: "blue100", base: "#e8f5ff" },
       { name: "blue400", base: "#068dfe" },
@@ -12,5 +14,6 @@ export default Controller.extend({
       { name: "blue800", base: "#0765b3" }
     ];
     this.set("colors", colors);
+   // END-SNIPPET
   }
 });
