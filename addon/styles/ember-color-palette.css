@@ -1,0 +1,38 @@
+.ember-color-palette {
+}
+
+.ember-color-palette .ember-color-palette__title {
+}
+.ember-color-palette .ember-color-palette__description {
+}
+
+.ember-color-palette-item {
+  border: solid 1px #cecece;
+  display: inline-block;
+  margin: 0 0px 5px 0;
+}
+
+.ember-color-palette-item .ember-color-palette-item__color {
+  height: 90px;
+  width: 160px;
+}
+
+.ember-color-palette-item .ember-color-palette-item__info {
+  background-color: #fff;
+  border-top: solid 1px #cecece;
+  padding: 5px;
+}
+
+.ember-color-palette-item .ember-color-palette-item__hex {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ember-color-palette-item .ember-color-palette-item__name {
+  color: #2f4f4f;
+  font-size: 11px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
