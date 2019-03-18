@@ -1,6 +1,6 @@
 {
   "name": "ember-color-palette",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A color palette display component.",
   "keywords": [
     "ember-addon",
