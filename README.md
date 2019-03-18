@@ -1,7 +1,7 @@
 ember-color-palette
 ==============================================================================
 
-[Short description of the addon.]
+Displays a color palette. Heavily inspired by https://github.com/chrislopresto/ember-freestyle.
 
 
 Compatibility
@@ -22,7 +22,15 @@ ember install ember-color-palette
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```  handlebars
+<!-- template.hbs -->
+<ColorPalette @colors={{this.colors}} @title={{this.title}} @description={{this.description}}/>
+
+
+<ColorPalette @colors={{this.colors}} as |cp|>
+  {{cp.item}}
+</ColorPalette>
+```
 
 
 Contributing
