@@ -37,10 +37,7 @@ Usage
 
 
 <!-- template.hbs -->
-<ColorPalette 
-	@colors={{this.colors}}
-	@title={{this.title}}
-	@description={{this.description}}/>
+<ColorPalette @colors={{this.colors}} @title={{this.title}} @description={{this.description}}/>
 ```
 
 
