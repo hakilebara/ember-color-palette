@@ -2,6 +2,7 @@ ember-color-palette
 ==============================================================================
 
 <img src="https://travis-ci.org/hakilebara/ember-color-palette.svg?branch=master" alt="build status"/>
+<img src="https://emberobserver.com/badges/ember-color-palette.svg" alt="ember observer score"/>
 
 Displays a color palette. Heavily inspired by https://github.com/chrislopresto/ember-freestyle.
 
