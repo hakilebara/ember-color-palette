@@ -5,6 +5,12 @@ ember-color-palette
 
 Displays a color palette. Heavily inspired by https://github.com/chrislopresto/ember-freestyle.
 
+Documentation
+------------------------------------------------------------------------------
+
+Here you'll find
+[a detailed documentation](http://hakilebara.com/ember-color-palette/)
+
 
 Compatibility
 ------------------------------------------------------------------------------
