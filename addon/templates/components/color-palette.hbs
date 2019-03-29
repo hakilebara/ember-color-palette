@@ -3,7 +3,7 @@
 
 {{#if (hasBlock)}}
   {{#each @colors as |color index|}}
-    {{yield (hash item=(component this.colorPaletteItemComponent color=color)) index}}
+    {{yield (hash item=(component this.colorPaletteItemComponent color=color) color=color) index}}
   {{else}}
     {{yield to="inverse"}}
   {{/each}}
