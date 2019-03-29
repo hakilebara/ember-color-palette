@@ -10,6 +10,10 @@ Router.map(function() {
   docsRoute(this, function() {
     this.route('index')
     this.route('usage')
+    this.route('components', function() {
+      this.route('color-palette')
+      this.route('color-palette-item')
+    })
   });
 });
 
